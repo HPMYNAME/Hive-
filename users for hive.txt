@@ -20,6 +20,11 @@ MAP KEYS TERMINATED BY ':'
 LINES TERMINATED BY '\n'
 STORED AS TEXTFILE;
  
+ 
+ 
+ 
+ 
+When you want to load the data :--
 LOAD DATA LOCAL INPATH '/home/user/User_Records.txt' OVERWRITE INTO TABLE user;
 
 
@@ -30,7 +35,7 @@ LOAD DATA LOCAL INPATH '/home/user/User_Records.txt' OVERWRITE INTO TABLE user;
 
 
 
-
+The data you input
 Rebbecca,Didio,Brandt Jonathan F Esq,171	E 24th St,AU,Leith,TA,7315,03-8174-9123	0458-665-290	0427-885-282,email:rebbecca.didio@didio.com.au,http://www.brandtjonathanfesq.com.au
 Stevie,Hallo,Landrum Temporary Services,22222	Acoma St,US,Proston,QL,4613,07-9997-3366	0497-622-620,email:stevie.hallo@hotmail.com,http://www.landrumtemporaryservices.com.au
 Mariko,Stayer,Inabinet Macre Esq,534	Schoenborn St #51,UK,Hamel,WA,6215,08-5558-9019	0427-885-282,email:mariko_stayer@hotmail.com,http://www.inabinetmacreesq.com.au
